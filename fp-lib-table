@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name nrfmicro)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+  (lib (name mouser-local)(type KiCad)(uri D:/GITHUB/EXTENDET-LIB/SamacSys_Parts.pretty)(options "")(descr ""))
+)
