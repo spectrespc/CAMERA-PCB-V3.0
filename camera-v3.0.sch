@@ -25,7 +25,7 @@ F 3 "" H 5550 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouser:USB2660I-JZX-03 IC1
+L camera-v3.0-rescue:USB2660I-JZX-03-mouser IC1
 U 1 1 606707E2
 P 7300 2800
 F 0 "IC1" H 9744 2146 50  0000 L CNN
@@ -42,7 +42,7 @@ F 9 "USB2660I-JZX-03" H 9550 3700 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouser:1775862-2 J1
+L camera-v3.0-rescue:1775862-2-mouser J1
 U 1 1 606740D6
 P 1200 2950
 F 0 "J1" H 4344 2846 50  0000 L CNN
@@ -59,7 +59,7 @@ F 9 "1775862-2" H 4150 2950 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouser:104031-0811 J2
+L camera-v3.0-rescue:104031-0811-mouser J2
 U 1 1 6067AB19
 P 5200 5650
 F 0 "J2" H 5850 5915 50  0000 C CNN
@@ -88,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 2900 7300 2900
 $Comp
-L mouser:503960-0696 J3
+L camera-v3.0-rescue:503960-0696-mouser J3
 U 1 1 6067DDEC
 P 2900 4950
 F 0 "J3" H 3400 5215 50  0000 C CNN
@@ -105,7 +105,7 @@ F 9 "503960-0696" H 3750 4350 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouser:ZXLD1350ET5TA IC2
+L camera-v3.0-rescue:ZXLD1350ET5TA-mouser IC2
 U 1 1 606AEFF0
 P 1500 8450
 F 0 "IC2" H 2100 8715 50  0000 C CNN
