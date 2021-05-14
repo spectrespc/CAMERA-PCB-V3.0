@@ -151,10 +151,10 @@ F 9 "1734742-8" H 9950 6600 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouser-local:53398-0867 J?
+L mouser-local:53398-0867 J6
 U 1 1 609EC819
 P 7100 7150
-F 0 "J?" H 7550 7415 50  0000 C CNN
+F 0 "J6" H 7550 7415 50  0000 C CNN
 F 1 "53398-0867" H 7550 7324 50  0000 C CNN
 F 2 "533980867" H 7850 7250 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/53398-0867.pdf" H 7850 7150 50  0001 L CNN
