@@ -88,35 +88,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 2900 7300 2900
 $Comp
-L camera-v3.0-rescue:503960-0696-mouser J3
-U 1 1 6067DDEC
-P 2900 4950
-F 0 "J3" H 3400 5215 50  0000 C CNN
-F 1 "503960-0696" H 3400 5124 50  0000 C CNN
-F 2 "mouser-local:5039600696" H 3750 5050 50  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/5039600696_sd.pdf" H 3750 4950 50  0001 L CNN
-F 4 "Memory Card Connectors 1mm microSIM Push Push SMT 6Ckt" H 3750 4850 50  0001 L CNN "Description"
-F 5 "1" H 3750 4750 50  0001 L CNN "Height"
-F 6 "538-503960-0696" H 3750 4650 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/503960-0696/?qs=c8NFF48pVsD9CCuzl855Ng%3D%3D" H 3750 4550 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 3750 4450 50  0001 L CNN "Manufacturer_Name"
-F 9 "503960-0696" H 3750 4350 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2900 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L mouser-local:AXP209 U2
-U 1 1 609E4991
-P 11950 4400
-F 0 "U2" H 11950 6067 50  0000 C CNN
-F 1 "AXP209" H 11950 5976 50  0000 C CNN
-F 2 "mouser-local:QFN40P600X600X80-49N" H 11950 4400 50  0001 L BNN
-F 3 "" H 11950 4400 50  0001 L BNN
-F 4 "X-Powers Limited" H 11950 4400 50  0001 L BNN "MANUFACTURER"
-	1    11950 4400
-	1    0    0    -1  
-$EndComp
-$Comp
 L mouser-local:1-1734742-6 J4
 U 1 1 609E63DD
 P 4300 7350
@@ -165,6 +136,34 @@ F 7 "https://www.mouser.co.uk/ProductDetail/Molex/53398-0867?qs=d0WKAl%252BL4KZ2
 F 8 "Molex" H 7850 6650 50  0001 L CNN "Manufacturer_Name"
 F 9 "53398-0867" H 7850 6550 50  0001 L CNN "Manufacturer_Part_Number"
 	1    7100 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L mouser-local:SIM8065-6-1-14-01-A J3
+U 1 1 60A7891A
+P 2750 5500
+F 0 "J3" H 3500 5765 50  0000 C CNN
+F 1 "SIM8065-6-1-14-01-A" H 3500 5674 50  0000 C CNN
+F 2 "SIM8065611401A" H 4100 5600 50  0001 L CNN
+F 3 "" H 4100 5500 50  0001 L CNN
+F 4 "NANO SIM PUSH-PUSH 6P 1.37MM H G" H 4100 5400 50  0001 L CNN "Description"
+F 5 "1.57" H 4100 5300 50  0001 L CNN "Height"
+F 6 "" H 4100 5200 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 4100 5100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "GCT (GLOBAL CONNECTOR TECHNOLOGY)" H 4100 5000 50  0001 L CNN "Manufacturer_Name"
+F 9 "SIM8065-6-1-14-01-A" H 4100 4900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Micro_SD_Card J7
+U 1 1 60A79CAE
+P 3050 6800
+F 0 "J7" H 3000 7517 50  0000 C CNN
+F 1 "Micro_SD_Card" H 3000 7426 50  0000 C CNN
+F 2 "" H 4200 7100 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 3050 6800 50  0001 C CNN
+	1    3050 6800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
