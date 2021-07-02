@@ -14,31 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L camera-v3.0-rescue:503960-0696-mouser J?
-U 1 1 60E774B9
-P 10450 5200
-AR Path="/60E774B9" Ref="J?"  Part="1" 
-AR Path="/6116EC13/60E774B9" Ref="J2"  Part="1" 
-F 0 "J2" H 10950 5465 50  0000 C CNN
-F 1 "503960-0696" H 10950 5374 50  0000 C CNN
-F 2 "5039600696" H 11300 5300 50  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/5039600696_sd.pdf" H 11300 5200 50  0001 L CNN
-F 4 "Memory Card Connectors 1mm microSIM Push Push SMT 6Ckt" H 11300 5100 50  0001 L CNN "Description"
-F 5 "1" H 11300 5000 50  0001 L CNN "Height"
-F 6 "538-503960-0696" H 11300 4900 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/503960-0696/?qs=c8NFF48pVsD9CCuzl855Ng%3D%3D" H 11300 4800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 11300 4700 50  0001 L CNN "Manufacturer_Name"
-F 9 "503960-0696" H 11300 4600 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10450 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L sim7600:SIM7600E-H U?
+L sim7600:SIM7600E-H D?
 U 1 1 60E774C2
 P 17550 7450
-AR Path="/60E774C2" Ref="U?"  Part="1" 
-AR Path="/6116EC13/60E774C2" Ref="U1"  Part="1" 
-F 0 "U1" H 17550 9817 50  0000 C CNN
+AR Path="/60E774C2" Ref="D?"  Part="1" 
+AR Path="/6116EC13/60E774C2" Ref="D3"  Part="1" 
+F 0 "D3" H 17550 9817 50  0000 C CNN
 F 1 "SIM7600E-H" H 17550 9726 50  0000 C CNN
 F 2 "IC_SIM7600E-H" H 17550 7450 50  0001 L BNN
 F 3 "" H 17550 7450 50  0001 L BNN
@@ -48,238 +29,36 @@ F 6 "Manufacturer Recommendations" H 17550 7450 50  0001 L BNN "STANDARD"
 	1    17550 7450
 	1    0    0    -1  
 $EndComp
-$Comp
-L mouser-local:104031-0811 J?
-U 1 1 60E774CD
-P 5650 5200
-AR Path="/60E774CD" Ref="J?"  Part="1" 
-AR Path="/6116EC13/60E774CD" Ref="J1"  Part="1" 
-F 0 "J1" H 6300 5465 50  0000 C CNN
-F 1 "104031-0811" H 6300 5374 50  0000 C CNN
-F 2 "1040310811" H 8550 7600 50  0001 L CNN
-F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/1040310811_MEMORY_CARD_SOCKET.pdf" H 8150 7100 50  0001 L CNN
-F 4 "microSD 1.10mm SMT push-pull memory card microSD 1.10mm SMT push-pull memory card" H 8150 7000 50  0001 L CNN "Description"
-F 5 "538-104031-0811" H 8950 6400 50  0001 L CNN "Mouser Part Number"
-F 6 "https://www.mouser.co.uk/ProductDetail/Molex/104031-0811?qs=udsGRKD4nA3Tvy7wqky%252BuA%3D%3D" H 8150 6700 50  0001 L CNN "Mouser Price/Stock"
-F 7 "Molex" H 9350 6300 50  0001 L CNN "Manufacturer_Name"
-F 8 "104031-0811" H 8950 6100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5650 5200
-	1    0    0    -1  
-$EndComp
-Text GLabel 5450 5300 0    50   Input ~ 0
-SD_D3
-Text GLabel 5450 5200 0    50   Input ~ 0
-SD_D2
-Text GLabel 7200 5500 2    50   Input ~ 0
-SD_D1
-Text GLabel 7200 5400 2    50   Input ~ 0
-SD_D0
-Text GLabel 7200 5200 2    50   Input ~ 0
-SD_CLK
-Text GLabel 5450 5400 0    50   Input ~ 0
-SD_CMD
-Text GLabel 7200 5800 2    50   Input ~ 0
-SD_CD
-$Comp
-L mouser-local:GRM155R61A105KE15J C?
-U 1 1 60E774E2
-P 5150 5550
-AR Path="/60E774E2" Ref="C?"  Part="1" 
-AR Path="/6116EC13/60E774E2" Ref="C12"  Part="1" 
-F 0 "C12" V 5354 5678 50  0000 L CNN
-F 1 "1u" V 5445 5678 50  0000 L CNN
-F 2 "CAPC1005X55N" H 5500 5600 50  0001 L CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 5500 5500 50  0001 L CNN
-F 4 "Murata 0402 GRM 1uF Ceramic Multilayer Capacitor, 10 V dc, +85C, X5R Dielectric, +/-10% SMD" H 5500 5400 50  0001 L CNN "Description"
-F 5 "0.55" H 5500 5300 50  0001 L CNN "Height"
-F 6 "Murata Electronics" H 5500 5200 50  0001 L CNN "Manufacturer_Name"
-F 7 "GRM155R61A105KE15J" H 5500 5100 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "81-GRM155R61A105KE5J" H 5500 5000 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM155R61A105KE5J" H 5500 4900 50  0001 L CNN "Mouser Price/Stock"
-F 10 "GRM155R61A105KE15J" H 5500 4800 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/grm155r61a105ke15j/murata-manufacturing" H 5500 4700 50  0001 L CNN "Arrow Price/Stock"
-	1    5150 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60E774E8
-P 5150 6100
-AR Path="/60E774E8" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E774E8" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 5150 5850 50  0001 C CNN
-F 1 "GND" H 5155 5927 50  0000 C CNN
-F 2 "" H 5150 6100 50  0001 C CNN
-F 3 "" H 5150 6100 50  0001 C CNN
-	1    5150 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 6100 5150 6050
-Wire Wire Line
-	5000 5500 5150 5500
-Wire Wire Line
-	5150 5550 5150 5500
-Connection ~ 5150 5500
-Wire Wire Line
-	5150 5500 5650 5500
-Wire Wire Line
-	5650 5600 5550 5600
-Wire Wire Line
-	5550 5600 5550 5700
-Wire Wire Line
-	5650 5900 5550 5900
-Connection ~ 5550 5900
-Wire Wire Line
-	5550 5900 5550 6050
-Wire Wire Line
-	5650 5800 5550 5800
-Connection ~ 5550 5800
-Wire Wire Line
-	5550 5800 5550 5900
-Wire Wire Line
-	5650 5700 5550 5700
-Connection ~ 5550 5700
-Wire Wire Line
-	5550 5700 5550 5800
-$Comp
-L power:GND #PWR?
-U 1 1 60E774FE
-P 5550 6050
-AR Path="/60E774FE" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E774FE" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 5550 5800 50  0001 C CNN
-F 1 "GND" H 5555 5877 50  0000 C CNN
-F 2 "" H 5550 6050 50  0001 C CNN
-F 3 "" H 5550 6050 50  0001 C CNN
-	1    5550 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 5800 7200 5800
-Wire Wire Line
-	6950 5500 7200 5500
-Wire Wire Line
-	6950 5400 7200 5400
-Wire Wire Line
-	7200 5200 6950 5200
-Wire Wire Line
-	5450 5400 5650 5400
-Wire Wire Line
-	5450 5300 5650 5300
-Wire Wire Line
-	5450 5200 5650 5200
-$Comp
-L power:GND #PWR?
-U 1 1 60E7750B
-P 7550 5300
-AR Path="/60E7750B" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E7750B" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 7550 5050 50  0001 C CNN
-F 1 "GND" H 7555 5127 50  0000 C CNN
-F 2 "" H 7550 5300 50  0001 C CNN
-F 3 "" H 7550 5300 50  0001 C CNN
-	1    7550 5300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6950 5300 7550 5300
-$Comp
-L power:GND #PWR?
-U 1 1 60E77512
-P 7000 5900
-AR Path="/60E77512" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77512" Ref="#PWR018"  Part="1" 
-F 0 "#PWR018" H 7000 5650 50  0001 C CNN
-F 1 "GND" H 7005 5727 50  0000 C CNN
-F 2 "" H 7000 5900 50  0001 C CNN
-F 3 "" H 7000 5900 50  0001 C CNN
-	1    7000 5900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6950 5900 7000 5900
-Text GLabel 5000 5500 0    50   Input ~ 0
-SD_POW
-Text GLabel 10150 5000 0    50   Input ~ 0
+Text GLabel 9850 6750 0    50   Input ~ 0
 SIM_VCC
-Text GLabel 8550 5200 0    50   Input ~ 0
+Text GLabel 8250 6950 0    50   Input ~ 0
 SIM_RST
-Text GLabel 8550 5400 0    50   Input ~ 0
+Text GLabel 8250 7150 0    50   Input ~ 0
 SIM_CLK
-Text GLabel 8500 5700 0    50   Input ~ 0
+Text GLabel 8200 7450 0    50   Input ~ 0
 SIM_IO
 $Comp
 L power:GND #PWR?
 U 1 1 60E7751E
-P 10350 5900
+P 10050 7650
 AR Path="/60E7751E" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E7751E" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 10350 5650 50  0001 C CNN
-F 1 "GND" H 10355 5727 50  0000 C CNN
-F 2 "" H 10350 5900 50  0001 C CNN
-F 3 "" H 10350 5900 50  0001 C CNN
-	1    10350 5900
+AR Path="/6116EC13/60E7751E" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 10050 7400 50  0001 C CNN
+F 1 "GND" H 10055 7477 50  0000 C CNN
+F 2 "" H 10050 7650 50  0001 C CNN
+F 3 "" H 10050 7650 50  0001 C CNN
+	1    10050 7650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10450 5500 10350 5500
-Wire Wire Line
-	10350 5500 10350 5800
-Wire Wire Line
-	10450 5800 10350 5800
-Connection ~ 10350 5800
-Wire Wire Line
-	10350 5800 10350 5900
-$Comp
-L power:GND #PWR?
-U 1 1 60E77529
-P 11550 5900
-AR Path="/60E77529" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77529" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 11550 5650 50  0001 C CNN
-F 1 "GND" H 11555 5727 50  0000 C CNN
-F 2 "" H 11550 5900 50  0001 C CNN
-F 3 "" H 11550 5900 50  0001 C CNN
-	1    11550 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11450 5200 11550 5200
-Wire Wire Line
-	11550 5200 11550 5300
-Wire Wire Line
-	11450 5700 11550 5700
-Connection ~ 11550 5700
-Wire Wire Line
-	11550 5700 11550 5900
-Wire Wire Line
-	11450 5600 11550 5600
-Connection ~ 11550 5600
-Wire Wire Line
-	11550 5600 11550 5700
-Wire Wire Line
-	11450 5500 11550 5500
-Connection ~ 11550 5500
-Wire Wire Line
-	11550 5500 11550 5600
-Wire Wire Line
-	11450 5400 11550 5400
-Connection ~ 11550 5400
-Wire Wire Line
-	11550 5400 11550 5500
-Wire Wire Line
-	11450 5300 11550 5300
-Connection ~ 11550 5300
-Wire Wire Line
-	11550 5300 11550 5400
+	10150 7250 10050 7250
 $Comp
 L mouser-local:GRM32ER61E226KE15L C?
 U 1 1 60E77548
 P 19100 5250
 AR Path="/60E77548" Ref="C?"  Part="1" 
-AR Path="/6116EC13/60E77548" Ref="C18"  Part="1" 
-F 0 "C18" V 19304 5378 50  0000 L CNN
+AR Path="/6116EC13/60E77548" Ref="C17"  Part="1" 
+F 0 "C17" V 19304 5378 50  0000 L CNN
 F 1 "22u" V 19450 5400 50  0000 L CNN
 F 2 "CAPC3225X270N" H 19450 5300 50  0001 L CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER61E226KE15-01.pdf" H 19450 5200 50  0001 L CNN
@@ -299,8 +78,8 @@ L mouser-local:GRM32ER61E226KE15L C?
 U 1 1 60E77556
 P 18700 5250
 AR Path="/60E77556" Ref="C?"  Part="1" 
-AR Path="/6116EC13/60E77556" Ref="C17"  Part="1" 
-F 0 "C17" V 18904 5378 50  0000 L CNN
+AR Path="/6116EC13/60E77556" Ref="C16"  Part="1" 
+F 0 "C16" V 18904 5378 50  0000 L CNN
 F 1 "22u" V 19050 5400 50  0000 L CNN
 F 2 "CAPC3225X270N" H 19050 5300 50  0001 L CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER61E226KE15-01.pdf" H 19050 5200 50  0001 L CNN
@@ -320,8 +99,8 @@ L power:GND #PWR?
 U 1 1 60E7755C
 P 19100 4600
 AR Path="/60E7755C" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E7755C" Ref="#PWR030"  Part="1" 
-F 0 "#PWR030" H 19100 4350 50  0001 C CNN
+AR Path="/6116EC13/60E7755C" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 19100 4350 50  0001 C CNN
 F 1 "GND" H 19105 4427 50  0000 C CNN
 F 2 "" H 19100 4600 50  0001 C CNN
 F 3 "" H 19100 4600 50  0001 C CNN
@@ -333,8 +112,8 @@ L power:GND #PWR?
 U 1 1 60E77562
 P 18700 4600
 AR Path="/60E77562" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77562" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 18700 4350 50  0001 C CNN
+AR Path="/6116EC13/60E77562" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 18700 4350 50  0001 C CNN
 F 1 "GND" H 18705 4427 50  0000 C CNN
 F 2 "" H 18700 4600 50  0001 C CNN
 F 3 "" H 18700 4600 50  0001 C CNN
@@ -350,8 +129,8 @@ L mouser-local:GRM32ER61E226KE15L C?
 U 1 1 60E77572
 P 19950 5250
 AR Path="/60E77572" Ref="C?"  Part="1" 
-AR Path="/6116EC13/60E77572" Ref="C20"  Part="1" 
-F 0 "C20" V 20154 5378 50  0000 L CNN
+AR Path="/6116EC13/60E77572" Ref="C19"  Part="1" 
+F 0 "C19" V 20154 5378 50  0000 L CNN
 F 1 "22u" V 20300 5400 50  0000 L CNN
 F 2 "CAPC3225X270N" H 20300 5300 50  0001 L CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER61E226KE15-01.pdf" H 20300 5200 50  0001 L CNN
@@ -371,8 +150,8 @@ L mouser-local:GRM32ER61E226KE15L C?
 U 1 1 60E77580
 P 19550 5250
 AR Path="/60E77580" Ref="C?"  Part="1" 
-AR Path="/6116EC13/60E77580" Ref="C19"  Part="1" 
-F 0 "C19" V 19754 5378 50  0000 L CNN
+AR Path="/6116EC13/60E77580" Ref="C18"  Part="1" 
+F 0 "C18" V 19754 5378 50  0000 L CNN
 F 1 "22u" V 19900 5400 50  0000 L CNN
 F 2 "CAPC3225X270N" H 19900 5300 50  0001 L CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER61E226KE15-01.pdf" H 19900 5200 50  0001 L CNN
@@ -392,8 +171,8 @@ L power:GND #PWR?
 U 1 1 60E77586
 P 19950 4600
 AR Path="/60E77586" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77586" Ref="#PWR034"  Part="1" 
-F 0 "#PWR034" H 19950 4350 50  0001 C CNN
+AR Path="/6116EC13/60E77586" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 19950 4350 50  0001 C CNN
 F 1 "GND" H 19955 4427 50  0000 C CNN
 F 2 "" H 19950 4600 50  0001 C CNN
 F 3 "" H 19950 4600 50  0001 C CNN
@@ -405,8 +184,8 @@ L power:GND #PWR?
 U 1 1 60E7758C
 P 19550 4600
 AR Path="/60E7758C" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E7758C" Ref="#PWR032"  Part="1" 
-F 0 "#PWR032" H 19550 4350 50  0001 C CNN
+AR Path="/6116EC13/60E7758C" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 19550 4350 50  0001 C CNN
 F 1 "GND" H 19555 4427 50  0000 C CNN
 F 2 "" H 19550 4600 50  0001 C CNN
 F 3 "" H 19550 4600 50  0001 C CNN
@@ -444,8 +223,8 @@ L power:+4V #PWR?
 U 1 1 60E775A1
 P 20350 5350
 AR Path="/60E775A1" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E775A1" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 20350 5200 50  0001 C CNN
+AR Path="/6116EC13/60E775A1" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 20350 5200 50  0001 C CNN
 F 1 "+4V" V 20365 5478 50  0000 L CNN
 F 2 "" H 20350 5350 50  0001 C CNN
 F 3 "" H 20350 5350 50  0001 C CNN
@@ -536,8 +315,8 @@ L power:GND #PWR?
 U 1 1 60E775DA
 P 15650 6450
 AR Path="/60E775DA" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E775DA" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 15650 6200 50  0001 C CNN
+AR Path="/6116EC13/60E775DA" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 15650 6200 50  0001 C CNN
 F 1 "GND" H 15655 6277 50  0000 C CNN
 F 2 "" H 15650 6450 50  0001 C CNN
 F 3 "" H 15650 6450 50  0001 C CNN
@@ -628,8 +407,8 @@ L power:GND #PWR?
 U 1 1 60E77613
 P 15650 5400
 AR Path="/60E77613" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77613" Ref="#PWR026"  Part="1" 
-F 0 "#PWR026" H 15650 5150 50  0001 C CNN
+AR Path="/6116EC13/60E77613" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 15650 5150 50  0001 C CNN
 F 1 "GND" H 15655 5227 50  0000 C CNN
 F 2 "" H 15650 5400 50  0001 C CNN
 F 3 "" H 15650 5400 50  0001 C CNN
@@ -667,244 +446,244 @@ SIM_IO
 $Comp
 L mouser-local:CRG0402F15R R?
 U 1 1 60E7762F
-P 9550 5200
+P 9250 6950
 AR Path="/60E7762F" Ref="R?"  Part="1" 
 AR Path="/6116EC13/60E7762F" Ref="R5"  Part="1" 
-F 0 "R5" H 9800 5300 50  0000 L CNN
-F 1 "22" H 9900 5300 50  0000 L CNN
-F 2 "RESC1005X40N" H 10100 5250 50  0001 L CNN
-F 3 "http://docs-europe.electrocomponents.com/webdocs/13d1/0900766b813d116f.pdf" H 10100 5150 50  0001 L CNN
-F 4 "TE Connectivity CRG0402 Series Thick Film Surface Mount Resistor 0402 Case 15 +/-1% 0.063W +/-100ppm/C" H 10100 5050 50  0001 L CNN "Description"
-F 5 "0.4" H 10100 4950 50  0001 L CNN "Height"
-F 6 "TE Connectivity" H 10100 4850 50  0001 L CNN "Manufacturer_Name"
-F 7 "CRG0402F15R" H 10100 4750 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "279-CRG0402F15R" H 10100 4650 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=279-CRG0402F15R" H 10100 4550 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 10100 4450 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 10100 4350 50  0001 L CNN "Arrow Price/Stock"
-	1    9550 5200
+F 0 "R5" H 9500 7050 50  0000 L CNN
+F 1 "22" H 9600 7050 50  0000 L CNN
+F 2 "RESC1005X40N" H 9800 7000 50  0001 L CNN
+F 3 "http://docs-europe.electrocomponents.com/webdocs/13d1/0900766b813d116f.pdf" H 9800 6900 50  0001 L CNN
+F 4 "TE Connectivity CRG0402 Series Thick Film Surface Mount Resistor 0402 Case 15 +/-1% 0.063W +/-100ppm/C" H 9800 6800 50  0001 L CNN "Description"
+F 5 "0.4" H 9800 6700 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 9800 6600 50  0001 L CNN "Manufacturer_Name"
+F 7 "CRG0402F15R" H 9800 6500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "279-CRG0402F15R" H 9800 6400 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=279-CRG0402F15R" H 9800 6300 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 9800 6200 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 9800 6100 50  0001 L CNN "Arrow Price/Stock"
+	1    9250 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10450 5200 10350 5200
+	10150 6950 10050 6950
 Wire Wire Line
-	10350 5200 10350 5000
+	10050 6950 10050 6750
 Wire Wire Line
-	10350 5000 10150 5000
+	10050 6750 9850 6750
 $Comp
 L mouser-local:CRG0402F15R R?
 U 1 1 60E77640
-P 9550 5400
+P 9250 7150
 AR Path="/60E77640" Ref="R?"  Part="1" 
 AR Path="/6116EC13/60E77640" Ref="R6"  Part="1" 
-F 0 "R6" H 9800 5500 50  0000 L CNN
-F 1 "22" H 9900 5500 50  0000 L CNN
-F 2 "RESC1005X40N" H 10100 5450 50  0001 L CNN
-F 3 "http://docs-europe.electrocomponents.com/webdocs/13d1/0900766b813d116f.pdf" H 10100 5350 50  0001 L CNN
-F 4 "TE Connectivity CRG0402 Series Thick Film Surface Mount Resistor 0402 Case 15 +/-1% 0.063W +/-100ppm/C" H 10100 5250 50  0001 L CNN "Description"
-F 5 "0.4" H 10100 5150 50  0001 L CNN "Height"
-F 6 "TE Connectivity" H 10100 5050 50  0001 L CNN "Manufacturer_Name"
-F 7 "CRG0402F15R" H 10100 4950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "279-CRG0402F15R" H 10100 4850 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=279-CRG0402F15R" H 10100 4750 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 10100 4650 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 10100 4550 50  0001 L CNN "Arrow Price/Stock"
-	1    9550 5400
+F 0 "R6" H 9500 7250 50  0000 L CNN
+F 1 "22" H 9600 7250 50  0000 L CNN
+F 2 "RESC1005X40N" H 9800 7200 50  0001 L CNN
+F 3 "http://docs-europe.electrocomponents.com/webdocs/13d1/0900766b813d116f.pdf" H 9800 7100 50  0001 L CNN
+F 4 "TE Connectivity CRG0402 Series Thick Film Surface Mount Resistor 0402 Case 15 +/-1% 0.063W +/-100ppm/C" H 9800 7000 50  0001 L CNN "Description"
+F 5 "0.4" H 9800 6900 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 9800 6800 50  0001 L CNN "Manufacturer_Name"
+F 7 "CRG0402F15R" H 9800 6700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "279-CRG0402F15R" H 9800 6600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=279-CRG0402F15R" H 9800 6500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 9800 6400 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 9800 6300 50  0001 L CNN "Arrow Price/Stock"
+	1    9250 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L mouser-local:CRG0402F15R R?
 U 1 1 60E7764E
-P 9550 5700
+P 9250 7450
 AR Path="/60E7764E" Ref="R?"  Part="1" 
 AR Path="/6116EC13/60E7764E" Ref="R7"  Part="1" 
-F 0 "R7" H 9800 5800 50  0000 L CNN
-F 1 "22" H 9900 5800 50  0000 L CNN
-F 2 "RESC1005X40N" H 10100 5750 50  0001 L CNN
-F 3 "http://docs-europe.electrocomponents.com/webdocs/13d1/0900766b813d116f.pdf" H 10100 5650 50  0001 L CNN
-F 4 "TE Connectivity CRG0402 Series Thick Film Surface Mount Resistor 0402 Case 15 +/-1% 0.063W +/-100ppm/C" H 10100 5550 50  0001 L CNN "Description"
-F 5 "0.4" H 10100 5450 50  0001 L CNN "Height"
-F 6 "TE Connectivity" H 10100 5350 50  0001 L CNN "Manufacturer_Name"
-F 7 "CRG0402F15R" H 10100 5250 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "279-CRG0402F15R" H 10100 5150 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=279-CRG0402F15R" H 10100 5050 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 10100 4950 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 10100 4850 50  0001 L CNN "Arrow Price/Stock"
-	1    9550 5700
+F 0 "R7" H 9500 7550 50  0000 L CNN
+F 1 "22" H 9600 7550 50  0000 L CNN
+F 2 "RESC1005X40N" H 9800 7500 50  0001 L CNN
+F 3 "http://docs-europe.electrocomponents.com/webdocs/13d1/0900766b813d116f.pdf" H 9800 7400 50  0001 L CNN
+F 4 "TE Connectivity CRG0402 Series Thick Film Surface Mount Resistor 0402 Case 15 +/-1% 0.063W +/-100ppm/C" H 9800 7300 50  0001 L CNN "Description"
+F 5 "0.4" H 9800 7200 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 9800 7100 50  0001 L CNN "Manufacturer_Name"
+F 7 "CRG0402F15R" H 9800 7000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "279-CRG0402F15R" H 9800 6900 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=279-CRG0402F15R" H 9800 6800 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 9800 6700 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 9800 6600 50  0001 L CNN "Arrow Price/Stock"
+	1    9250 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 5200 10300 5200
+	9950 6950 10000 6950
 Wire Wire Line
-	10300 5200 10300 5300
+	10000 6950 10000 7050
 Wire Wire Line
-	10300 5300 10450 5300
+	10000 7050 10150 7050
 Wire Wire Line
-	10450 5400 10250 5400
+	10150 7150 9950 7150
 Wire Wire Line
-	10250 5700 10450 5700
+	9950 7450 10150 7450
 $Comp
 L mouser-local:GRM155R71C104KA88B C?
 U 1 1 60E77661
-P 10350 4450
+P 10050 6200
 AR Path="/60E77661" Ref="C?"  Part="1" 
-AR Path="/6116EC13/60E77661" Ref="C16"  Part="1" 
-F 0 "C16" H 10600 4715 50  0000 C CNN
-F 1 "0.1u" H 10600 4600 50  0000 C CNN
-F 2 "CAPC1005X55N" H 10700 4500 50  0001 L CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 10700 4400 50  0001 L CNN
-F 4 "Chip Capacitor value 104" H 10700 4300 50  0001 L CNN "Description"
-F 5 "0.55" H 10700 4200 50  0001 L CNN "Height"
-F 6 "Murata Electronics" H 10700 4100 50  0001 L CNN "Manufacturer_Name"
-F 7 "GRM155R71C104KA88B" H 10700 4000 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 10700 3900 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 10700 3800 50  0001 L CNN "Mouser Price/Stock"
-F 10 "GRM155R71C104KA88B" H 10700 3700 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/grm155r71c104ka88b/murata-manufacturing" H 10700 3600 50  0001 L CNN "Arrow Price/Stock"
-	1    10350 4450
+AR Path="/6116EC13/60E77661" Ref="C15"  Part="1" 
+F 0 "C15" H 10300 6465 50  0000 C CNN
+F 1 "0.1u" H 10300 6350 50  0000 C CNN
+F 2 "CAPC1005X55N" H 10400 6250 50  0001 L CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 10400 6150 50  0001 L CNN
+F 4 "Chip Capacitor value 104" H 10400 6050 50  0001 L CNN "Description"
+F 5 "0.55" H 10400 5950 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 10400 5850 50  0001 L CNN "Manufacturer_Name"
+F 7 "GRM155R71C104KA88B" H 10400 5750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 10400 5650 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 10400 5550 50  0001 L CNN "Mouser Price/Stock"
+F 10 "GRM155R71C104KA88B" H 10400 5450 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/grm155r71c104ka88b/murata-manufacturing" H 10400 5350 50  0001 L CNN "Arrow Price/Stock"
+	1    10050 6200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10350 4950 10350 5000
-Connection ~ 10350 5000
+	10050 6700 10050 6750
+Connection ~ 10050 6750
 $Comp
 L power:GND #PWR?
 U 1 1 60E77669
-P 10350 4350
+P 10050 6100
 AR Path="/60E77669" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77669" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 10350 4100 50  0001 C CNN
-F 1 "GND" H 10355 4177 50  0000 C CNN
-F 2 "" H 10350 4350 50  0001 C CNN
-F 3 "" H 10350 4350 50  0001 C CNN
-	1    10350 4350
+AR Path="/6116EC13/60E77669" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 10050 5850 50  0001 C CNN
+F 1 "GND" H 10055 5927 50  0000 C CNN
+F 2 "" H 10050 6100 50  0001 C CNN
+F 3 "" H 10050 6100 50  0001 C CNN
+	1    10050 6100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10350 4450 10350 4350
+	10050 6200 10050 6100
 $Comp
 L mouser-local:GRM155R71C104KA88B C?
 U 1 1 60E77676
-P 9050 5850
+P 8750 7600
 AR Path="/60E77676" Ref="C?"  Part="1" 
-AR Path="/6116EC13/60E77676" Ref="C14"  Part="1" 
-F 0 "C14" V 9254 5978 50  0000 L CNN
-F 1 "16p" V 9345 5978 50  0000 L CNN
-F 2 "CAPC1005X55N" H 9400 5900 50  0001 L CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 9400 5800 50  0001 L CNN
-F 4 "Chip Capacitor value 104" H 9400 5700 50  0001 L CNN "Description"
-F 5 "0.55" H 9400 5600 50  0001 L CNN "Height"
-F 6 "Murata Electronics" H 9400 5500 50  0001 L CNN "Manufacturer_Name"
-F 7 "GRM155R71C104KA88B" H 9400 5400 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "GRM155R71C104KA88B" H 9400 5100 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/grm155r71c104ka88b/murata-manufacturing" H 9400 5000 50  0001 L CNN "Arrow Price/Stock"
-	1    9050 5850
+AR Path="/6116EC13/60E77676" Ref="C13"  Part="1" 
+F 0 "C13" V 8954 7728 50  0000 L CNN
+F 1 "16p" V 9045 7728 50  0000 L CNN
+F 2 "CAPC1005X55N" H 9100 7650 50  0001 L CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 9100 7550 50  0001 L CNN
+F 4 "Chip Capacitor value 104" H 9100 7450 50  0001 L CNN "Description"
+F 5 "0.55" H 9100 7350 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 9100 7250 50  0001 L CNN "Manufacturer_Name"
+F 7 "GRM155R71C104KA88B" H 9100 7150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "GRM155R71C104KA88B" H 9100 6850 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/grm155r71c104ka88b/murata-manufacturing" H 9100 6750 50  0001 L CNN "Arrow Price/Stock"
+	1    8750 7600
 	0    1    1    0   
 $EndComp
 $Comp
 L mouser-local:GRM155R71C104KA88B C?
 U 1 1 60E77682
-P 9450 5850
+P 9150 7600
 AR Path="/60E77682" Ref="C?"  Part="1" 
-AR Path="/6116EC13/60E77682" Ref="C15"  Part="1" 
-F 0 "C15" V 9654 5978 50  0000 L CNN
-F 1 "16p" V 9745 5978 50  0000 L CNN
-F 2 "CAPC1005X55N" H 9800 5900 50  0001 L CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 9800 5800 50  0001 L CNN
-F 4 "Chip Capacitor value 104" H 9800 5700 50  0001 L CNN "Description"
-F 5 "0.55" H 9800 5600 50  0001 L CNN "Height"
-F 6 "Murata Electronics" H 9800 5500 50  0001 L CNN "Manufacturer_Name"
-F 7 "GRM155R71C104KA88B" H 9800 5400 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "GRM155R71C104KA88B" H 9800 5100 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/grm155r71c104ka88b/murata-manufacturing" H 9800 5000 50  0001 L CNN "Arrow Price/Stock"
-	1    9450 5850
+AR Path="/6116EC13/60E77682" Ref="C14"  Part="1" 
+F 0 "C14" V 9354 7728 50  0000 L CNN
+F 1 "16p" V 9445 7728 50  0000 L CNN
+F 2 "CAPC1005X55N" H 9500 7650 50  0001 L CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 9500 7550 50  0001 L CNN
+F 4 "Chip Capacitor value 104" H 9500 7450 50  0001 L CNN "Description"
+F 5 "0.55" H 9500 7350 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 9500 7250 50  0001 L CNN "Manufacturer_Name"
+F 7 "GRM155R71C104KA88B" H 9500 7150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "GRM155R71C104KA88B" H 9500 6850 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/grm155r71c104ka88b/murata-manufacturing" H 9500 6750 50  0001 L CNN "Arrow Price/Stock"
+	1    9150 7600
 	0    1    1    0   
 $EndComp
 $Comp
 L mouser-local:GRM155R71C104KA88B C?
 U 1 1 60E7768E
-P 8650 5850
+P 8350 7600
 AR Path="/60E7768E" Ref="C?"  Part="1" 
-AR Path="/6116EC13/60E7768E" Ref="C13"  Part="1" 
-F 0 "C13" V 8854 5978 50  0000 L CNN
-F 1 "16p" V 8945 5978 50  0000 L CNN
-F 2 "CAPC1005X55N" H 9000 5900 50  0001 L CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 9000 5800 50  0001 L CNN
-F 4 "Chip Capacitor value 104" H 9000 5700 50  0001 L CNN "Description"
-F 5 "0.55" H 9000 5600 50  0001 L CNN "Height"
-F 6 "Murata Electronics" H 9000 5500 50  0001 L CNN "Manufacturer_Name"
-F 7 "GRM155R71C104KA88B" H 9000 5400 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "GRM155R71C104KA88B" H 9000 5100 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/grm155r71c104ka88b/murata-manufacturing" H 9000 5000 50  0001 L CNN "Arrow Price/Stock"
-	1    8650 5850
+AR Path="/6116EC13/60E7768E" Ref="C12"  Part="1" 
+F 0 "C12" V 8554 7728 50  0000 L CNN
+F 1 "16p" V 8645 7728 50  0000 L CNN
+F 2 "CAPC1005X55N" H 8700 7650 50  0001 L CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 8700 7550 50  0001 L CNN
+F 4 "Chip Capacitor value 104" H 8700 7450 50  0001 L CNN "Description"
+F 5 "0.55" H 8700 7350 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 8700 7250 50  0001 L CNN "Manufacturer_Name"
+F 7 "GRM155R71C104KA88B" H 8700 7150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "GRM155R71C104KA88B" H 8700 6850 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/grm155r71c104ka88b/murata-manufacturing" H 8700 6750 50  0001 L CNN "Arrow Price/Stock"
+	1    8350 7600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60E77694
-P 9450 6450
+P 9150 8200
 AR Path="/60E77694" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77694" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 9450 6200 50  0001 C CNN
-F 1 "GND" H 9455 6277 50  0000 C CNN
-F 2 "" H 9450 6450 50  0001 C CNN
-F 3 "" H 9450 6450 50  0001 C CNN
-	1    9450 6450
+AR Path="/6116EC13/60E77694" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 9150 7950 50  0001 C CNN
+F 1 "GND" H 9155 8027 50  0000 C CNN
+F 2 "" H 9150 8200 50  0001 C CNN
+F 3 "" H 9150 8200 50  0001 C CNN
+	1    9150 8200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60E7769A
-P 9050 6450
+P 8750 8200
 AR Path="/60E7769A" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E7769A" Ref="#PWR021"  Part="1" 
-F 0 "#PWR021" H 9050 6200 50  0001 C CNN
-F 1 "GND" H 9055 6277 50  0000 C CNN
-F 2 "" H 9050 6450 50  0001 C CNN
-F 3 "" H 9050 6450 50  0001 C CNN
-	1    9050 6450
+AR Path="/6116EC13/60E7769A" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 8750 7950 50  0001 C CNN
+F 1 "GND" H 8755 8027 50  0000 C CNN
+F 2 "" H 8750 8200 50  0001 C CNN
+F 3 "" H 8750 8200 50  0001 C CNN
+	1    8750 8200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60E776A0
-P 8650 6450
+P 8350 8200
 AR Path="/60E776A0" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E776A0" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 8650 6200 50  0001 C CNN
-F 1 "GND" H 8655 6277 50  0000 C CNN
-F 2 "" H 8650 6450 50  0001 C CNN
-F 3 "" H 8650 6450 50  0001 C CNN
-	1    8650 6450
+AR Path="/6116EC13/60E776A0" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 8350 7950 50  0001 C CNN
+F 1 "GND" H 8355 8027 50  0000 C CNN
+F 2 "" H 8350 8200 50  0001 C CNN
+F 3 "" H 8350 8200 50  0001 C CNN
+	1    8350 8200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 6450 8650 6350
+	8350 8200 8350 8100
 Wire Wire Line
-	9050 6350 9050 6450
+	8750 8100 8750 8200
 Wire Wire Line
-	9450 6350 9450 6450
+	9150 8100 9150 8200
 Wire Wire Line
-	8500 5700 8650 5700
+	8200 7450 8350 7450
 Wire Wire Line
-	8550 5400 9050 5400
+	8250 7150 8750 7150
 Wire Wire Line
-	8550 5200 9450 5200
+	8250 6950 9150 6950
 Wire Wire Line
-	8650 5850 8650 5700
-Connection ~ 8650 5700
+	8350 7600 8350 7450
+Connection ~ 8350 7450
 Wire Wire Line
-	8650 5700 9550 5700
+	8350 7450 9250 7450
 Wire Wire Line
-	9050 5850 9050 5400
-Connection ~ 9050 5400
+	8750 7600 8750 7150
+Connection ~ 8750 7150
 Wire Wire Line
-	9050 5400 9550 5400
+	8750 7150 9250 7150
 Wire Wire Line
-	9450 5850 9450 5200
-Connection ~ 9450 5200
+	9150 7600 9150 6950
+Connection ~ 9150 6950
 Wire Wire Line
-	9450 5200 9550 5200
+	9150 6950 9250 6950
 Wire Wire Line
 	16350 6550 16650 6550
 Wire Wire Line
@@ -943,8 +722,8 @@ L power:+3.3V #PWR?
 U 1 1 60E776C9
 P 19350 8850
 AR Path="/60E776C9" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E776C9" Ref="#PWR031"  Part="1" 
-F 0 "#PWR031" H 19350 8700 50  0001 C CNN
+AR Path="/6116EC13/60E776C9" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 19350 8700 50  0001 C CNN
 F 1 "+3.3V" H 19365 9023 50  0000 C CNN
 F 2 "" H 19350 8850 50  0001 C CNN
 F 3 "" H 19350 8850 50  0001 C CNN
@@ -963,10 +742,8 @@ Text GLabel 18650 8050 2    50   Input ~ 0
 LTE_STATUS
 Wire Wire Line
 	18450 8050 18650 8050
-Text GLabel 11750 5800 2    50   Input ~ 0
+Text GLabel 11900 7350 2    50   Input ~ 0
 SIM_DET
-Wire Wire Line
-	11450 5800 11750 5800
 Text GLabel 18650 8250 2    50   Input ~ 0
 SIM_DET
 Wire Wire Line
@@ -976,8 +753,8 @@ L power:GND #PWR?
 U 1 1 60E776D9
 P 18550 9450
 AR Path="/60E776D9" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E776D9" Ref="#PWR028"  Part="1" 
-F 0 "#PWR028" H 18550 9200 50  0001 C CNN
+AR Path="/6116EC13/60E776D9" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 18550 9200 50  0001 C CNN
 F 1 "GND" H 18555 9277 50  0000 C CNN
 F 2 "" H 18550 9450 50  0001 C CNN
 F 3 "" H 18550 9450 50  0001 C CNN
@@ -987,12 +764,12 @@ $EndComp
 Wire Wire Line
 	18450 9450 18550 9450
 $Comp
-L mouser-local:73412-0110 J?
+L mouser-local:73412-0110 X?
 U 1 1 60E776E8
 P 23350 4700
-AR Path="/60E776E8" Ref="J?"  Part="1" 
-AR Path="/6116EC13/60E776E8" Ref="J3"  Part="1" 
-F 0 "J3" V 23350 5050 50  0000 L CNN
+AR Path="/60E776E8" Ref="X?"  Part="1" 
+AR Path="/6116EC13/60E776E8" Ref="X4"  Part="1" 
+F 0 "X4" V 23350 5050 50  0000 L CNN
 F 1 "73412-0110" V 23450 5000 50  0000 L CNN
 F 2 "73412-0110" H 24400 5200 50  0001 L CNN
 F 3 "http://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 24400 5100 50  0001 L CNN
@@ -1018,8 +795,8 @@ L power:GND #PWR?
 U 1 1 60E776F1
 P 23350 4650
 AR Path="/60E776F1" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E776F1" Ref="#PWR036"  Part="1" 
-F 0 "#PWR036" H 23350 4400 50  0001 C CNN
+AR Path="/6116EC13/60E776F1" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 23350 4400 50  0001 C CNN
 F 1 "GND" H 23355 4477 50  0000 C CNN
 F 2 "" H 23350 4650 50  0001 C CNN
 F 3 "" H 23350 4650 50  0001 C CNN
@@ -1027,12 +804,12 @@ F 3 "" H 23350 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L mouser-local:73412-0110 J?
+L mouser-local:73412-0110 X?
 U 1 1 60E776FF
 P 23350 6750
-AR Path="/60E776FF" Ref="J?"  Part="1" 
-AR Path="/6116EC13/60E776FF" Ref="J4"  Part="1" 
-F 0 "J4" V 23350 7100 50  0000 L CNN
+AR Path="/60E776FF" Ref="X?"  Part="1" 
+AR Path="/6116EC13/60E776FF" Ref="X5"  Part="1" 
+F 0 "X5" V 23350 7100 50  0000 L CNN
 F 1 "73412-0110" V 23450 7050 50  0000 L CNN
 F 2 "73412-0110" H 24400 7250 50  0001 L CNN
 F 3 "http://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 24400 7150 50  0001 L CNN
@@ -1048,12 +825,12 @@ F 11 "" H 24400 6350 50  0001 L CNN "Arrow Price/Stock"
 	0    1    1    0   
 $EndComp
 $Comp
-L mouser-local:73412-0110 J?
+L mouser-local:73412-0110 X?
 U 1 1 60E7770D
 P 23350 8800
-AR Path="/60E7770D" Ref="J?"  Part="1" 
-AR Path="/6116EC13/60E7770D" Ref="J5"  Part="1" 
-F 0 "J5" V 23350 9150 50  0000 L CNN
+AR Path="/60E7770D" Ref="X?"  Part="1" 
+AR Path="/6116EC13/60E7770D" Ref="X6"  Part="1" 
+F 0 "X6" V 23350 9150 50  0000 L CNN
 F 1 "73412-0110" V 23450 9100 50  0000 L CNN
 F 2 "73412-0110" H 24400 9300 50  0001 L CNN
 F 3 "http://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 24400 9200 50  0001 L CNN
@@ -1073,8 +850,8 @@ L power:GND #PWR?
 U 1 1 60E77713
 P 23350 6700
 AR Path="/60E77713" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77713" Ref="#PWR038"  Part="1" 
-F 0 "#PWR038" H 23350 6450 50  0001 C CNN
+AR Path="/6116EC13/60E77713" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 23350 6450 50  0001 C CNN
 F 1 "GND" H 23355 6527 50  0000 C CNN
 F 2 "" H 23350 6700 50  0001 C CNN
 F 3 "" H 23350 6700 50  0001 C CNN
@@ -1086,8 +863,8 @@ L power:GND #PWR?
 U 1 1 60E77719
 P 23350 8750
 AR Path="/60E77719" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77719" Ref="#PWR040"  Part="1" 
-F 0 "#PWR040" H 23350 8500 50  0001 C CNN
+AR Path="/6116EC13/60E77719" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 23350 8500 50  0001 C CNN
 F 1 "GND" H 23355 8577 50  0000 C CNN
 F 2 "" H 23350 8750 50  0001 C CNN
 F 3 "" H 23350 8750 50  0001 C CNN
@@ -1099,8 +876,8 @@ L power:GND #PWR?
 U 1 1 60E7771F
 P 24100 9400
 AR Path="/60E7771F" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E7771F" Ref="#PWR044"  Part="1" 
-F 0 "#PWR044" H 24100 9150 50  0001 C CNN
+AR Path="/6116EC13/60E7771F" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 24100 9150 50  0001 C CNN
 F 1 "GND" H 24105 9227 50  0000 C CNN
 F 2 "" H 24100 9400 50  0001 C CNN
 F 3 "" H 24100 9400 50  0001 C CNN
@@ -1112,8 +889,8 @@ L power:GND #PWR?
 U 1 1 60E77725
 P 24100 7350
 AR Path="/60E77725" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77725" Ref="#PWR043"  Part="1" 
-F 0 "#PWR043" H 24100 7100 50  0001 C CNN
+AR Path="/6116EC13/60E77725" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 24100 7100 50  0001 C CNN
 F 1 "GND" H 24105 7177 50  0000 C CNN
 F 2 "" H 24100 7350 50  0001 C CNN
 F 3 "" H 24100 7350 50  0001 C CNN
@@ -1125,8 +902,8 @@ L power:GND #PWR?
 U 1 1 60E7772B
 P 24100 5300
 AR Path="/60E7772B" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E7772B" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 24100 5050 50  0001 C CNN
+AR Path="/6116EC13/60E7772B" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 24100 5050 50  0001 C CNN
 F 1 "GND" H 24105 5127 50  0000 C CNN
 F 2 "" H 24100 5300 50  0001 C CNN
 F 3 "" H 24100 5300 50  0001 C CNN
@@ -1138,8 +915,8 @@ L power:GND #PWR?
 U 1 1 60E77731
 P 23350 5950
 AR Path="/60E77731" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77731" Ref="#PWR037"  Part="1" 
-F 0 "#PWR037" H 23350 5700 50  0001 C CNN
+AR Path="/6116EC13/60E77731" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 23350 5700 50  0001 C CNN
 F 1 "GND" H 23355 5777 50  0000 C CNN
 F 2 "" H 23350 5950 50  0001 C CNN
 F 3 "" H 23350 5950 50  0001 C CNN
@@ -1151,8 +928,8 @@ L power:GND #PWR?
 U 1 1 60E77737
 P 23350 8000
 AR Path="/60E77737" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77737" Ref="#PWR039"  Part="1" 
-F 0 "#PWR039" H 23350 7750 50  0001 C CNN
+AR Path="/6116EC13/60E77737" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 23350 7750 50  0001 C CNN
 F 1 "GND" H 23355 7827 50  0000 C CNN
 F 2 "" H 23350 8000 50  0001 C CNN
 F 3 "" H 23350 8000 50  0001 C CNN
@@ -1164,8 +941,8 @@ L power:GND #PWR?
 U 1 1 60E7773D
 P 23350 10050
 AR Path="/60E7773D" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E7773D" Ref="#PWR041"  Part="1" 
-F 0 "#PWR041" H 23350 9800 50  0001 C CNN
+AR Path="/6116EC13/60E7773D" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 23350 9800 50  0001 C CNN
 F 1 "GND" H 23355 9877 50  0000 C CNN
 F 2 "" H 23350 10050 50  0001 C CNN
 F 3 "" H 23350 10050 50  0001 C CNN
@@ -1253,8 +1030,8 @@ L power:+3.3V #PWR?
 U 1 1 60E77770
 P 19800 6900
 AR Path="/60E77770" Ref="#PWR?"  Part="1" 
-AR Path="/6116EC13/60E77770" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 19800 6750 50  0001 C CNN
+AR Path="/6116EC13/60E77770" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 19800 6750 50  0001 C CNN
 F 1 "+3.3V" H 19815 7073 50  0000 C CNN
 F 2 "" H 19800 6900 50  0001 C CNN
 F 3 "" H 19800 6900 50  0001 C CNN
@@ -1272,4 +1049,59 @@ Wire Wire Line
 	19800 7700 19800 7650
 Wire Wire Line
 	19800 6950 19800 6900
+$Comp
+L mouser-local:SIM8065-6-1-14-01-A X3
+U 1 1 60E0C6B0
+P 10150 6950
+F 0 "X3" H 10900 7215 50  0000 C CNN
+F 1 "SIM8065-6-1-14-01-A" H 10900 7124 50  0000 C CNN
+F 2 "SIM8065611401A" H 11500 7050 50  0001 L CNN
+F 3 "https://www.farnell.com/cad/3168105.pdf" H 11500 6950 50  0001 L CNN
+F 4 "NANO SIM PUSH-PUSH 6P 1.37MM H G" H 11500 6850 50  0001 L CNN "Description"
+F 5 "1.57" H 11500 6750 50  0001 L CNN "Height"
+F 6 "GCT (GLOBAL CONNECTOR TECHNOLOGY)" H 11500 6650 50  0001 L CNN "Manufacturer_Name"
+F 7 "SIM8065-6-1-14-01-A" H 11500 6550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 11500 6450 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 11500 6350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 11500 6250 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 11500 6150 50  0001 L CNN "Arrow Price/Stock"
+	1    10150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 7250 10050 7650
+Wire Wire Line
+	11650 7350 11900 7350
+$Comp
+L power:GND #PWR?
+U 1 1 60E1EBBB
+P 11750 7650
+AR Path="/60E1EBBB" Ref="#PWR?"  Part="1" 
+AR Path="/6116EC13/60E1EBBB" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 11750 7400 50  0001 C CNN
+F 1 "GND" H 11755 7477 50  0000 C CNN
+F 2 "" H 11750 7650 50  0001 C CNN
+F 3 "" H 11750 7650 50  0001 C CNN
+	1    11750 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 6950 11750 6950
+Wire Wire Line
+	11750 6950 11750 7050
+Wire Wire Line
+	11650 7050 11750 7050
+Connection ~ 11750 7050
+Wire Wire Line
+	11750 7050 11750 7150
+Wire Wire Line
+	11650 7150 11750 7150
+Connection ~ 11750 7150
+Wire Wire Line
+	11750 7150 11750 7250
+Wire Wire Line
+	11650 7250 11750 7250
+Connection ~ 11750 7250
+Wire Wire Line
+	11750 7250 11750 7650
 $EndSCHEMATC
