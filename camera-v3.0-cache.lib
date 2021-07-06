@@ -1,35 +1,41 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# camera-v3.0-rescue_503960-0696-mouser
+# mouser-local_1-1734742-6
 #
-DEF camera-v3.0-rescue_503960-0696-mouser J 0 30 Y Y 1 F N
-F0 "J" 850 300 50 H V L CNN
-F1 "camera-v3.0-rescue_503960-0696-mouser" 850 200 50 H V L CNN
-F2 "5039600696" 850 100 50 H I L CNN
-F3 "https://www.molex.com/pdm_docs/sd/5039600696_sd.pdf" 850 0 50 H I L CNN
-F4 "Memory Card Connectors 1mm microSIM Push Push SMT 6Ckt" 850 -100 50 H I L CNN "Description"
-F5 "1" 850 -200 50 H I L CNN "Height"
-F6 "538-503960-0696" 850 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Molex/503960-0696/?qs=c8NFF48pVsD9CCuzl855Ng%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Molex" 850 -500 50 H I L CNN "Manufacturer_Name"
-F9 "503960-0696" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DEF mouser-local_1-1734742-6 J 0 30 Y Y 1 F N
+F0 "J" 1150 500 50 H V L CNN
+F1 "mouser-local_1-1734742-6" 1150 400 50 H V L CNN
+F2 "117347426" 1150 300 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734742%7FP%7Fpdf%7FEnglish%7FENG_CD_1734742_P.pdf%7F1-1734742-6" 1150 200 50 H I L CNN
+F4 "TE CONNECTIVITY - 1-1734742-6 - CONNECTOR, FFC / FPC, 0.5MM, 16WAY" 1150 100 50 H I L CNN "Description"
+F5 "5.3" 1150 0 50 H I L CNN "Height"
+F6 "TE Connectivity" 1150 -100 50 H I L CNN "Manufacturer_Name"
+F7 "1-1734742-6" 1150 -200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-1-1734742-6" 1150 -300 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-1734742-6?qs=GQ3BsEl46pkEaYiPSkWN4w%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F10 "1-1734742-6" 1150 -500 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/1-1734742-6/te-connectivity" 1150 -600 50 H I L CNN "Arrow Price/Stock"
 DRAW
-P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
-X C1 C1 0 0 200 R 50 50 0 0 P
-X C2 C2 0 -100 200 R 50 50 0 0 P
-X C3 C3 0 -200 200 R 50 50 0 0 P
-X C5 C5 0 -300 200 R 50 50 0 0 P
-X C6 C6 0 -400 200 R 50 50 0 0 P
-X C7 C7 0 -500 200 R 50 50 0 0 P
-X DL1 DL1 1000 -500 200 L 50 50 0 0 P
-X DS1 DS1 1000 -600 200 L 50 50 0 0 P
-X G1 G1 0 -600 200 R 50 50 0 0 P
-X G2 G2 1000 0 200 L 50 50 0 0 P
-X G3 G3 1000 -100 200 L 50 50 0 0 P
-X G4 G4 1000 -200 200 L 50 50 0 0 P
-X G5 G5 1000 -300 200 L 50 50 0 0 P
-X G6 G6 1000 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 300 1100 300 1100 -300 200 -300 200 300 N
+X 1 1 300 -500 200 U 50 50 0 0 P
+X 10 10 700 500 200 D 50 50 0 0 P
+X 11 11 800 -500 200 U 50 50 0 0 P
+X 12 12 800 500 200 D 50 50 0 0 P
+X 13 13 900 -500 200 U 50 50 0 0 P
+X 14 14 900 500 200 D 50 50 0 0 P
+X 15 15 1000 -500 200 U 50 50 0 0 P
+X 16 16 1000 500 200 D 50 50 0 0 P
+X 2 2 300 500 200 D 50 50 0 0 P
+X 3 3 400 -500 200 U 50 50 0 0 P
+X 4 4 400 500 200 D 50 50 0 0 P
+X 5 5 500 -500 200 U 50 50 0 0 P
+X 6 6 500 500 200 D 50 50 0 0 P
+X 7 7 600 -500 200 U 50 50 0 0 P
+X 8 8 600 500 200 D 50 50 0 0 P
+X 9 9 700 -500 200 U 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 1300 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -61,6 +67,64 @@ X CD1 12 1300 -600 200 L 50 50 1 1 P
 X CD2 13 1300 -700 200 L 50 50 1 1 P
 X SH 14 0 -700 200 R 50 50 1 1 P
 X SH 9 0 -400 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mouser-local_1734742-8
+#
+DEF mouser-local_1734742-8 J 0 30 Y Y 1 F N
+F0 "J" 850 500 50 H V L CNN
+F1 "mouser-local_1734742-8" 850 400 50 H V L CNN
+F2 "17347428" 850 300 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734742%7FP%7Fpdf%7FEnglish%7FENG_CD_1734742_P.pdf%7F1-1734742-8" 850 200 50 H I L CNN
+F4 "TE Connectivity FPC 0.5mm Pitch 8 Way Straight SMT Female FPC Connector, ZIF Vertical Contact" 850 100 50 H I L CNN "Description"
+F5 "5.3" 850 0 50 H I L CNN "Height"
+F6 "TE Connectivity" 850 -100 50 H I L CNN "Manufacturer_Name"
+F7 "1734742-8" 850 -200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-1734742-8" 850 -300 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1734742-8/?qs=n3Ybsy482HHYM%252Bd%2FbS4e5Q%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F10 "1734742-8" 850 -500 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/1734742-8/te-connectivity" 850 -600 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 300 800 300 800 -300 200 -300 200 300 N
+X 1 1 300 -500 200 U 50 50 0 0 P
+X 2 2 300 500 200 D 50 50 0 0 P
+X 3 3 400 -500 200 U 50 50 0 0 P
+X 4 4 400 500 200 D 50 50 0 0 P
+X 5 5 500 -500 200 U 50 50 0 0 P
+X 6 6 500 500 200 D 50 50 0 0 P
+X 7 7 600 -500 200 U 50 50 0 0 P
+X 8 8 600 500 200 D 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# mouser-local_53398-0867
+#
+DEF mouser-local_53398-0867 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "mouser-local_53398-0867" 750 200 50 H V L CNN
+F2 "533980867" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/53398-0867.pdf" 750 0 50 H I L CNN
+F4 "CONN WIRE TO BD HDR 8 POS 1.25MM SLDR ST SMD TAPE" 750 -100 50 H I L CNN "Description"
+F5 "5.9" 750 -200 50 H I L CNN "Height"
+F6 "Molex" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "53398-0867" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-53398-0867" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/53398-0867?qs=d0WKAl%252BL4KZ2wnaw%2FdjEPw%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+X 1 1 0 -700 200 R 50 50 0 0 P
+X 2 2 0 -600 200 R 50 50 0 0 P
+X 3 3 0 -500 200 R 50 50 0 0 P
+X 4 4 0 -400 200 R 50 50 0 0 P
+X 5 5 0 -300 200 R 50 50 0 0 P
+X 6 6 0 -200 200 R 50 50 0 0 P
+X 7 7 0 -100 200 R 50 50 0 0 P
+X 8 8 0 0 200 R 50 50 0 0 P
+X MP1 MP1 900 -100 200 L 50 50 0 0 P
+X MP2 MP2 900 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -411,6 +475,33 @@ A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
 A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
 X ~ 1 0 0 200 R 50 50 0 0 P
 X ~ 2 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# mouser-local_SIM8065-6-1-14-01-A
+#
+DEF mouser-local_SIM8065-6-1-14-01-A J 0 30 Y Y 1 F N
+F0 "J" 1350 300 50 H V L CNN
+F1 "mouser-local_SIM8065-6-1-14-01-A" 1350 200 50 H V L CNN
+F2 "SIM8065611401A" 1350 100 50 H I L CNN
+F3 "https://www.farnell.com/cad/3168105.pdf" 1350 0 50 H I L CNN
+F4 "NANO SIM PUSH-PUSH 6P 1.37MM H G" 1350 -100 50 H I L CNN "Description"
+F5 "1.57" 1350 -200 50 H I L CNN "Height"
+F6 "GCT (GLOBAL CONNECTOR TECHNOLOGY)" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SIM8065-6-1-14-01-A" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1300 100 1300 -600 200 -600 200 100 N
+X VCC C1 0 0 200 R 50 50 0 0 P
+X RST C2 0 -100 200 R 50 50 0 0 P
+X CLK C3 0 -200 200 R 50 50 0 0 P
+X GND_1 C5 0 -300 200 R 50 50 0 0 P
+X VPP C6 0 -400 200 R 50 50 0 0 P
+X I/O C7 0 -500 200 R 50 50 0 0 P
+X CARD_DETECT CD1 1500 -400 200 L 50 50 0 0 P
+X GND_2 G1 1500 0 200 L 50 50 0 0 P
+X GND_3 G2 1500 -100 200 L 50 50 0 0 P
+X GND_4 G3 1500 -200 200 L 50 50 0 0 P
+X GND_5 G4 1500 -300 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
